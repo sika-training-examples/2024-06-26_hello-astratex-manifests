@@ -19,6 +19,9 @@ spec:
           ports:
             - name: http
               containerPort: 80
+          env:
+            - name: TEXT
+              value: "Ahoj Astratex!"
           resources:
             requests:
               cpu: 10m
